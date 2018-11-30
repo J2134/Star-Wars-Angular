@@ -1,0 +1,24 @@
+<body>
+<div class="page">
+<div class="body">
+  <p>The information you're looking for, is it?</p>
+<div class="box">
+<select [(ngModel)]="select">
+  <option value='characters'>Search Characters</option>
+  <option value='starships'>Search Ships</option>
+  <option value='films'>Search films</option>
+</select>
+
+<br />
+<br />
+
+<label>Search: </label>
+<input type="text" [(ngModel)]="r2">
+<button (click)="search(select,r2)">Search</button>
+<div *ngIf="response">
+  <p>{{ response.results | json }}</p>
+</div>
+</div>
+</div>
+</div>
+</body>

@@ -1,0 +1,19 @@
+.body {
+  margin-left: 25em;
+  margin-top: 20em;
+}
+
+
+p {
+  font-family: 'star wars1';
+  font-size: 2em;
+}
+
+.box{
+  margin-left: 20em;
+}
+
+@font-face {
+  font-family: 'star wars1';
+src: url('/assets/Starjhol.ttf');
+}
