@@ -3,3 +3,8 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
 }
+
+h1 { font-family: 'star wars1';
+  font-size: 2em;
+  color: black;
+}
